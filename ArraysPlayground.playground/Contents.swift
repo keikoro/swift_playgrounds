@@ -5,14 +5,6 @@ import UIKit
 NSLocale.currentLocale().localeIdentifier
 NSLocale.availableLocaleIdentifiers()
 
-var name = "Andrea"
-var age = 5
-
-// string interpolation is easier
-"her name is \(name) and she is \(age) years old"
-
-// than concatenating strings with +
-"her name is " + name + " and she is " + String(age) + " years old"
 
 // --- ARRAYS ---
 var someNumbers = [1, 6, 0, 13]
