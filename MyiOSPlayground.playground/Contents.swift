@@ -49,3 +49,11 @@ var combinedArray = someWords + buildArray
 buildArray.count
 buildArray.isEmpty
 
+// looping over arrays
+for item in buildArray {
+    print(item)
+}
+
+for (index, value) in buildArray.enumerate() {
+    print("Index \(index): \(value)")
+}
