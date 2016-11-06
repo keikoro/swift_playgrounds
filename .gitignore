@@ -1,6 +1,33 @@
-**/build/*
-**/.DS_Store
-**/UserInterfaceState.xcuserstate
+# ----- Mac
+.DS_Store
 
-*
-!*.playground
+# ----- env, config vars
+*.env
+**config**
+**var/**
+
+# ----- Files general
+*.log
+**cache**
+**local**
+**foo**
+**dist**
+**temp**
+**build
+*.sqlite
+
+# ----- Files PROJECT
+
+
+# ----- XCode
+**/UserInterfaceState.xcuserstate
+**/DerivedData/
+**/xcuserdata/
+**.moved-aside
+**~.nib
+**xcconfig
+
+# ----- Allow
+!**template**
+!**requirements.txt**
+!**runtime.txt**
